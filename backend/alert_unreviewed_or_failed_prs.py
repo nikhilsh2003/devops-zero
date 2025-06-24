@@ -11,8 +11,8 @@ HEADERS = {
     "Accept": "application/vnd.github+json"
 }
 
-OWNER = "your-org"
-REPO = "your-repo"
+OWNER = "openai"
+REPO = "openai-python"
 PR_AGE_HOURS = 12
 
 async def fetch_open_prs():
