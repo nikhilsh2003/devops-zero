@@ -16,5 +16,5 @@ jobs:
       - run: pip install httpx python-dotenv
       - run: python backend/alert_unreviewed_or_failed_prs.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN_GITHUB }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
